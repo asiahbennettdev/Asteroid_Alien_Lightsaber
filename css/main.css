@@ -1,0 +1,151 @@
+* {box-sizing:
+  border-box;
+}
+
+h1{
+  color:green;
+}
+section {
+  border: 2px transparent;
+  height: 950px;
+  width: 100%;
+  float: left;
+  background-image: url("https://media.giphy.com/media/IzosQSaUzxT8Lls8Cz/giphy.gif");
+  background-size: cover;
+}
+/*Top Half*/
+@font-face {
+  font-family: 'spaceQuest';
+  src:url(../fonts/SpaceQuest-Xj4o.ttf);
+  font-style: normal;
+  font-weight: 100;
+
+}
+h1 {
+  font-family: spaceQuest;
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: monospace;
+  text-align: center;
+  color: lightgoldenrodyellow;
+  font-size: 15px;
+  background: black;
+  width: 80%;
+  margin-left: 11%;
+}
+div.scoreboard {
+  border: 15px solid deeppink;
+  height: 270px;
+  width: 26%;
+  margin: 50px 30% 20px 36%;
+}
+div.scoreboard h2 {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 26px;
+}
+
+div.scoreboard table {
+  border: 2px solid white;
+  height: 115px;
+  width: 40%;
+  margin: 20px 30%;
+}
+div.scoreboard table tbody {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: spaceQuest;
+}
+div.scoreboard table tfoot tr th {
+  color: white;
+  font-family: spaceQuest;
+}
+/***************Bottom Half****************/
+section h2.choice{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: monospace;
+  color: white;
+  font-size: 33px;
+}
+
+
+button {
+  height: 300px;
+  width: 30%;
+  float: left;
+  background: transparent;
+  border: transparent;
+}
+.astroid, .ufo, .lifesaber {
+  height: 160px;
+  width: 70%;
+  float: left;
+}
+#rock {
+  background-image: url(images/astroid1.png);
+  background-size: 52%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  color: deeppink;
+  font-family: spaceQuest;
+  padding-top: 274px;
+
+}
+#paper {
+  background-image: url(images/alien2.png);
+  background-size: 54%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  color: deeppink;
+  font-family: spaceQuest;
+  padding-top: 282px;
+}
+#scissors {
+  background-image: url(images/lifesaber.png);
+  background-size: 65%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  color: deeppink;
+  font-family: spaceQuest;
+  padding-top: 268px;
+}
+
+.status {
+  border: 3px solid red;
+  height: 40px;
+  width: 30%;
+  float: left;
+  background-image: transparent;
+}
+section div#status {
+  font-size: 30px;
+  margin-left: 40%;
+  font-family: monospace;
+  color: white;
+}
+}
+
+
+
+/*#nuclear-bomb{
+  background-image: url(fire.png);
+  background-size: 67%;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  background-position: center;
+}*/
