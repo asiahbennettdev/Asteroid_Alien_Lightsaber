@@ -2,6 +2,7 @@
  Rock Paper Scissor Game. The objective was to create a game of rock, paper, scissors, where user plays against the computer. Asteroid beats Lightsaber, Alien beats Ateroid, Lightsaber beats Alien. Choose the right force to win! 
 
 ![ screenshot of application](https://github.com/asiahbennettdev/Asteroid_Alien_Lightsaber/blob/master/css/images/aal.png)
+# Link
 https://inspiring-wescoff-0bc121.netlify.com
 
 # How It's Made:
