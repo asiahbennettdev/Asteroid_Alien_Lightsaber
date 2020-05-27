@@ -1,8 +1,8 @@
 var botScore=0,
 	playerScore=0;
 document.getElementById("rock").onclick=playerThrowsRock;
-document.getElementById("paper").onclick=playerThrowsRock;
-document.getElementById("scissors").onclick=playerThrowsRock;
+document.getElementById("paper").onclick=playerThrowsPaper;
+document.getElementById("scissors").onclick=playerThrowsScissors;
 
 function playerThrowsRock(){
 	var botsWeapon=getRandomWeapon();
